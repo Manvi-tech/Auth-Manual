@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    font-size: 20px;
+    font-family: 'Allison', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+body{
+   display: flex;
+   letter-spacing: 1px;
+}
+body .contacts{
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    background-color: lightcyan;
+}
+.contacts li div{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 15px;
+}
+.contacts li .details{
+    width: 55%;
+    margin-top: -14px;
+}
+.contacts .details p{
+  line-height: 18px;   
+}
+
+.detete-contact a,.delete-contact a i{ 
+  color: #f73c7b !important;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 7%;
+}
+body .create-contact{
+    width: 60%;
+    background-color: #fff9c4;
+}
+.create-contact input{
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+    height: 25px;
+    outline: none;
+    border: 1px solid pink;
+    font-weight: 700;
+}
+.create-btn{
+    background-color: pink;
+    box-shadow: 2px 2px aliceblue;
+}
