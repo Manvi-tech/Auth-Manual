@@ -20,9 +20,11 @@
                    <div class="details">
                         <p>Name: <%=i.name%> </p>
                         <p>Phone: <%=i.phone%> </p>
+                        <p>BirthDate: <%= i.birthday %> </p>    
+                       
                    </div>
                    <div class="delete-contact">
-                      <a href="/delete-contact/<%= i.phone %>">
+                      <a href="/delete-contact/<%= i._id %>">
                         <i class="fas fa-backspace"></i>
                       </a>
                    </div>
