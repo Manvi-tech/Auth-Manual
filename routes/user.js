@@ -2,6 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/userController');
+const User = require('../models/user');
 
 router.get('/signup',function(req,res){
     return res.render('signup', {
@@ -19,5 +20,6 @@ router.post('/create', userController.create);
 
 router.post('/createSession', userController.createSession);
 
+router.get('/profile', userController.profile);
 
 module.exports = router;
